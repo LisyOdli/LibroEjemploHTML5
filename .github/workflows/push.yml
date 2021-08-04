@@ -1,10 +1,10 @@
-name: Deploy de la página //Desplegar página
+name: Deploy de la página
 on: 
   push:
     branches:
       - main
 jobs:
-  deploy page: 
+  deploy-page: 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 
